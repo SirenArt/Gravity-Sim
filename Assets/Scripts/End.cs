@@ -6,6 +6,7 @@ public class End : MonoBehaviour
 {
     void Update()
     {
+        //esc to exit game
         if(Input.GetKey("escape"))
         {
             Application.Quit();
